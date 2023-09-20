@@ -1,0 +1,111 @@
+:root {
+  --green-main: #79B448;
+  --green-dark: #185B21;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.simple-slider {
+  max-height: 750px;
+}
+
+#header-nav {
+  width: 100%;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #header-nav li {
+    width: calc(25% - 10px);
+    text-align: center;
+    position: relative;
+  }
+}
+
+#header-nav li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: solid 1px var(--green-dark);
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  #header-nav li.active:before {
+    border-top: solid 4px var(--green-dark);
+  }
+}
+
+@media (min-width: 768px) {
+  #header-nav li:not(:last-child) {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #header-nav li:hover:before {
+    border-top: solid 4px var(--green-main);
+  }
+}
+
+#mainNav #navbarResponsive #header-nav a.nav-link {
+  font-size: 22px !important;
+  font-family: Jenine;
+  color: var(--green-dark);
+  letter-spacing: 0.7px;
+}
+
+#mainNav #navbarResponsive #header-nav a.nav-link:hover, #mainNav #navbarResponsive #header-nav li.active a.nav-link {
+  color: var(--green-main) !important;
+}
+
+#mainNav {
+  background: rgba(255,255,255,0.8);
+}
+
+#header-phone {
+  color: var(--green-dark);
+  background: rgba(255,255,255,0);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 900;
+}
+
+.color-dark {
+  color: var(--green-dark);
+}
+
+.heading-font {
+  font-family: Jenine;
+}
+
+.color-main {
+  color: var(--green-main);
+}
+
+.bg-main {
+  background-color: var(--green-main);
+}
+
+@media (max-width: 767px) {
+  #cover-doctor-name {
+    letter-spacing: 1px !important;
+  }
+}
+
+.photo-gallery .col.item a {
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.photo-gallery .col.item a img:hover {
+  transform: scale(1.2);
+}
+
+.photo-gallery .col.item a img {
+  transition: all 400ms ease-in-out;
+}
+
