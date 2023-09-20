@@ -38,10 +38,10 @@ function isMobile() {
         <div class="container-fluid"><a class="navbar-brand" href="#page-top"><img src="assets/img/logo2.png?h=4452706a2ae2b2db72d525a5c1181aec"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav" id="header-nav" style="direction: rtl;">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">الرئيسية</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">الخدمات</a></li>
-                    <li class="nav-item"><a class="nav-link px-0" href="teeth.html">صحة الاسنان</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.php">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.php">الخدمات</a></li>
+                    <li class="nav-item"><a class="nav-link px-0" href="teeth.php">صحة الاسنان</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">اتصل بنا</a></li>
                 </ul>
             </div><a class="btn btn-outline-primary btn-lg d-none d-lg-inline-block" role="button" id="header-phone" href="tel:01066771440">01066771440</a>
         </div>
