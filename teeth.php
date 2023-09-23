@@ -1,73 +1,213 @@
 <?php include 'header.php'; ?>
 
-    <header class="masthead" style="height: auto;padding: 0;min-height: 0 !important;">
-        <div class="container-fluid my-auto" style="padding: 0;">
-            <div class="row g-0 row-cols-1 row-cols-md-2">
-                <div class="col text-center pb-5" data-aos="fade-right" data-aos-once="true" style="padding-top: 100px;">
-                    <h1 class="text-center heading-font color-dark m-0" style="letter-spacing: 2px;font-weight: 400;font-size: 70px;">عيادة</h1>
-                    <h1 class="text-center heading-font color-main m-0" id="cover-company-name" style="font-size: 110px;font-weight: 700;font-family: Jenine;">توث يارد<br></h1>
-                    <h1 class="text-center heading-font color-dark m-0" id="cover-doctor-name" style="font-size: 55px;font-weight: 700;">د. نهى صدقى<br></h1>
-                    <h1 class="text-center heading-font color-main m-0" id="cover-slogan" style="font-size: 55px;font-weight: 100;">أستعيد بسمتك<br></h1><a class="btn btn-primary btn-lg text-center px-5 mt-3 bg-main" role="button" style="margin-right: auto;margin-left: auto;display: inline-block;font-family: Almarai, sans-serif;">احجز الان</a>
-                </div>
-                <div class="col" data-aos="fade-left" data-aos-once="true" style="max-height: 750px;">
-                    <div class="simple-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" style="height: auto;">
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/8980c5_aaeebe58337a4a3aa28b8fc5806ad8f4mv2.png?h=9731367317187ec24719572665e48173&quot;) left / cover no-repeat;"></div>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/8980c5_00d583383faa4e74a73fe2168bc0a1ffmv2.png?h=1af17852015b4aad3532325336ddfbc1&quot;) left / cover no-repeat;"></div>
-                            </div>
-                            <div class="swiper-button-prev swiper-button"></div>
-                            <div class="swiper-button-next swiper-button"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="about" class="bg-primary" style="background: url(&quot;assets/img/8980c5_22d172895dea424a97686dddbd60a469mv2.jpg?h=af1a23db34806e5f5d4ab36c595bbfa9&quot;) center / cover no-repeat;padding-bottom: 0;height: 600px;">
-        <div class="container p-5">
-            <div class="row"></div>
-        </div>
-    </section>
-    <section id="about-1" class="py-0 px-5" style="padding-bottom: 0;margin-top: -450px;">
-        <div class="container py-5 px-md-5" style="background: #E2F7EB;max-width: 800px;">
-            <div class="row">
-                <div class="col offset-lg-8 text-center mx-auto" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
-                    <h2 class="section-heading rtl color-main" style="font-family: Jenine;font-size: 60px;">عن العيادة :<br></h2>
-                    <ul class="rtl" style="text-align: right;font-family: Lenos;font-size: 20px;">
-                        <li>تأسست عيادة توث يارد للأسنان وتديرها الدكتورة نهى صدقى عضو مجلس الجمعية الأمريكية لطب الاسنان اكثر من 14 سنة خبرة فى مجال طب الفم والأسنان</li>
-                        <li>تقدم عيادة توث يارد للأسنان مجموعة من امهر الاطباء المتخصصين في مجال طب الأسنان وخدمات تجميل الاسنان وطب اسنان الاطفال باحدث التقنيات الحديثة لعلاج أكثر راحة ودقة.</li>
-                        <li>يوجد في عيادة توث يارد للأسنان مواعيد خاصة بالسيدات.<br></li>
-                        <li>متوفر مواعيد صباحية ومسائية لتناسب جميع أفراد الأسرة.<br></li>
-                        <li>يوجد مكان مخصص لاستقبال الأطفال وذلك لراحة الأم.<br></li>
-                    </ul>
-                    <p class="color-main">متاح التقسيط بدون فوائد عن طريق<br></p>
-                    <div class="row">
-                        <div class="col"><img data-aos="zoom-in" data-aos-once="true" class="mx-2" src="assets/img/Cib_Logo_svg.png?h=c1144a92f58ea18493f5989a10b33024" style="width: 130px;"><img data-aos="zoom-in" data-aos-once="true" class="mx-2" src="assets/img/unnamed2.png?h=30ccc02f251207e9ac5dde8ea5df4b28" style="width: 70px;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services" class="p-5">
+    <section id="teeth-head" class="p-5" style="margin-top: 80px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading rtl heading-font fw-bold color-dark" style="font-size: 50px;">صور العيادة<br></h2>
+                    <h2 class="text-center section-heading rtl heading-font fw-bold color-dark" style="font-size: 100px;">صحة الاسنان<br></h2>
                 </div>
             </div>
         </div>
     </section>
-    <section class="photo-gallery py-5 bg-main">
+    <section id="teeth-section-1" class="p-0">
         <div class="container">
-            <div class="row gx-2 gy-2 row-cols-2 row-cols-md-3 row-cols-lg-5 photos" data-bss-baguettebox="">
-                <div class="col item"><a href="assets/img/fullsize/home-1.webp?h=ada30391a2aa473e3f6230e4a36f1616"><img class="img-fluid" src="assets/img/thumbnails/thumb-1.jpeg?h=00079fdf24f74258b0cea45c6f711c5a"></a></div>
-                <div class="col item"><a href="assets/img/fullsize/home-2.webp?h=8cd690f8b80ddaa62761eb280178b51e"><img class="img-fluid" src="assets/img/thumbnails/thumb-2.jpeg?h=9208a0331d5b3fc83590883752316fbf"></a></div>
-                <div class="col item"><a href="assets/img/fullsize/home-3.webp?h=ab8062a4ef2a4600a70f271aec01e2de"><img class="img-fluid" src="assets/img/thumbnails/thumb-3.jpeg?h=cbdeb4c58d020db9c3d01772a3d9563a"></a></div>
-                <div class="col item"><a href="assets/img/fullsize/home-4.webp?h=622cf804f066c13af58cb5f15fabd1c4"><img class="img-fluid" src="assets/img/thumbnails/thumb-4.jpeg?h=15247de97310d25c73ac5c7ea1e013d2"></a></div>
-                <div class="col item"><a href="assets/img/fullsize/home-5.webp?h=622cf804f066c13af58cb5f15fabd1c4"><img class="img-fluid" src="assets/img/thumbnails/thumb-5.jpeg?h=bfef493f2a15c6693fb7803ca54cb2c2"></a></div>
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-1.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-main p-5" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">تنقسم آلام الأسنان إلى :&nbsp;<br></h1>
+                        <ul class="text-white rtl" style="text-align: right;font-family: Lenos;font-size: 20px;">
+                            <li>ألم مع تناول شيء بارد أو ساخن.&nbsp;<br></li>
+                            <li>ألم مع تناول الحلويات&nbsp;.<br></li>
+                            <li>ألم مع العض.<br></li>
+                            <li>ألم تلقائي بدون سبب.<br></li>
+                            <li>لو الألم اللي عندك من النوع الأول او الثاني..ده معناه إن في تسوس محتاج يتعالج بحشو تجميلي.<br></li>
+                            <li>لو الألم من النوع الثالث..يبقي في شرخ في الضرس محتاج يتعالج او في إلتهاب في اللثة بنعالجه بتنظيف الجير.<br></li>
+                            <li>لو الألم من النوع الأخير..يبقي العصب ملتهب و محتاج علاج عصب فورا قبل ما يكوّن خراج.<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-2" class="p-0 rtl">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-2.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-dark-green p-5" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">متي يجب أن يذهب الطفل لأول مرة لطبيب الأسنان؟<br></h1>
+                        <p class="text-white">يجب زيارة طبيب اسنان الاطفال مع ظهور أول سنة للطفل بين ٦ أشهر و ١٢ شهر.<br>هذه الزيارة للتأكد من صحة الأسنان ولتعليم الأم كيفية التعامل مع اسنان الطفل للحفاظ عليها من التسوس<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-3" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-3.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-main p-5" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">إزاي حشو الاسنان يدوم<br>معانا مدة اطول؟<br></h1>
+                        <ul class="text-white rtl" style="text-align: right;font-family: Lenos;font-size: 20px;">
+                            <li>اغسل اسنانك مرتين يوميا.<br></li>
+                            <li>ابتعد عن القهوة والشاي.<br></li>
+                            <li>ابتعد عن التدخين.<br></li>
+                            <li>اشرب الماء بدلاً من المشروبات الغازية.<br></li>
+                            <li>تجنب تناول الاطعمة الصلبة.<br></li>
+                            <li>قلل من تناول السكريات.<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-4" class="p-0 rtl">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-4.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-dark-green p-5" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">ضرس العقل عندي مطلعش اخلعه ولا اسيبه؟<br></h1>
+                        <p class="text-white">اللي هيحدد الاجابة هي اشعة البانوراما هي اللي بتكشف لنا وضع الضرس.<br>لو مايل وضاغط علي الاسنان المجاورة او ضاغط علي عصب الفك ومسبب الم لازم يتخلع فورا.<br>أما لو مش مسبب اي مشكلة ممكن نسيبه ونتابعة مع المتابعة الدورية للاسنان كل ٦ شهور.<br>لو عندك فراغات بين اسنانك، تزاحم في الاسنان، بروز او تراجع في الفك العلوي, عضة مفتوحة , عضة<br>معكوسة كل دي مشاكل بنعالجها بتقويم الاسنان.<br>ولو سببها عادة زي مص الاصبع او دفع اللسان الي الامام بنستخدم اجهزة خاصة لكسر العادة الخاطئة.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-5" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-5.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-main p-5" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">ليه تعمل سناب اون او هوليوود سمايل المتحركة؟<br></h1>
+                        <ul class="text-white rtl" style="text-align: right;font-family: Lenos;font-size: 20px;">
+                            <li>لان السناب اون مش بتحتاج برد لأسنانك.<br></li>
+                            <li>تقدر تقلعها اي وقت اسنانك زي ماهي مفيش فيها اي تغيير.<br></li>
+                            <li>بتختار شكل و لون السناب اون بنفسك.<br></li>
+                            <li>لا تسبب اي بروز او ضب في اسنانك لأن سمكها 0.5 مللي فقط.<br></li>
+                            <li>مش بتحتاج غير زيارة واحدة بس عند طبيب الأسنان لأخذ المقاس.<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-6" class="p-0 rtl">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-6.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-dark-green p-5" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">ليه لازم تعمل زراعة اسنان مع الخلع ومتتأخرش؟<br></h1>
+                        <p class="text-white">لأن الأسنان مش بس مهمة في مضغ الأكل وتحافظ علي شكلك ونطقك للكلمات والحروف، هي<br>كمان بتحافظ علي عظام الفك من التآكل اللي بيحصل بعد خلع الاسنان.<br>عظم الفك ده مهم جداً في زراعة الاسنان.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-7" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-7.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-main p-5" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">متي يجب استبدال فرشاة الأسنان؟<br></h1>
+                        <p class="text-end text-white rtl">ما بين شهرين الي ثلاثة أشهر او عند ظهور إعوجاج او تغيير في شكل شعيرات الفرشاة او عند إصابة<br>الشخص بعدوي بكتيرية او فيروسية مثل نزلات البرد.<br></p>
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">كيف تختار فرشاة الأسنان المناسبة لك؟<br></h1>
+                        <p class="text-end text-white rtl">يمكن إستعمال أنواع مختلفة لفرش الأسنان.<br></p>
+                        <ul class="text-end text-white rtl">
+                            <li>اولا، احرص علي إختيار حجم رأس صغير الي متوسط حتي تصل لجميع أجزاء الفم وخاصة الضروس الخلفية.</li>
+                            <li>ثانيا، ينبغي أن تكون شعيرات الفرشاة لينة الي متوسطة اللين حتي لا تؤذي مينة الأسنان او اللثة خاصة مع وجود إلتهابات.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-8" class="p-0 rtl">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-8.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-dark-green p-5" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">ما هي أسباب إصفرار الأسنان؟<br></h1>
+                        <p class="text-end text-white">هناك أسباب عديدة لإصفرار الأسنان منها الإفراط في شرب الشاي والقهوة، التدخين الي جانب عدم الإعتناء بنظافة الأسنان اليومية مما يتسبب في تراكم طبقات من الجير الذي بدوره يؤدي إلي تغيير لون الاسنان.<br></p>
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">هل تبييض الاسنان مضر كما هو شائع؟<br></h1>
+                        <p class="text-end text-white">يعمل تبييض الاسنان علي فتح مسام الاسنان لخروج كل التصبغات الداخلية وهذا يتم من خلال جيل يتم وضعه على الاسنان.<br>لا يوجد اي برد للاسنان نهاثيا اثناء التبييض&nbsp;التعقيم الآمن والاحترام المطلق لسرية وخصوصية المريض .<br>قاعدة أساسية لحماية الجميع بما فى ذلك المرضى والاطباء والموظفين.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="teeth-section-9" class="p-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-9.jpg"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+            </div>
+        </div>
+        <section class="py-0" style="margin-top: -250px;z-index: 2;">
+            <div class="container-fluid py-5 px-md-5">
+                <div class="row row-cols-3">
+                    <div class="col-4"></div>
+                    <div class="col-12 col-md-8 text-center bg-main p-5" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
+                        <h1 class="text-white section-heading rtl" style="font-family: Jenine;">ما هو حافظ المسافة للاطفال؟<br></h1>
+                        <p class="text-end text-white rtl">في حالة ان خلع الطفل ضرس لبني قبل موعد التبديل باكثر من 8 اشهر بسبب التسوس الشديد يجب تركيب&nbsp;حافظ المسافة لحفظ مكان الضرس المخلوع لحين بزوغ الضرس الدائم. وذلك حتى لايميل الضروس&nbsp;المجاورة في الفراغ مما يتسبب في تقليص المكان المتاح للضرس الدائم وحتى لا نحتاج لتقويم الاسنان في&nbsp;المستقبل.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <!--end of content-->
 <?php include 'footer.php'; ?>
