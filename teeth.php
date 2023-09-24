@@ -12,8 +12,8 @@
     <section id="teeth-section-1" class="p-0">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-1.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-1.jpg?h=3b6fb854c9782643b6d8be9a3320caa6"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -39,8 +39,8 @@
     <section id="teeth-section-2" class="p-0 rtl">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-2.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-2.jpg?h=b8266092932504e79ec9871a103a6b51"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -58,8 +58,8 @@
     <section id="teeth-section-3" class="p-0">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-3.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-3.jpg?h=5a2ba1458229f24dcdaf4283fd8b7c34"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -84,8 +84,8 @@
     <section id="teeth-section-4" class="p-0 rtl">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-4.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-4.jpg?h=bfbe3fed555f96631380e6d3f08500d1"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -103,8 +103,8 @@
     <section id="teeth-section-5" class="p-0">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-5.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-5.jpg?h=aa550d76948b5a54f8af44df9f8a4b57"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -128,8 +128,8 @@
     <section id="teeth-section-6" class="p-0 rtl">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-6.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-6.jpg?h=753d1175ec3295fded8513f1560c0e25"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -147,8 +147,8 @@
     <section id="teeth-section-7" class="p-0">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-7.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-7.jpg?h=d0eebe89bc94d5441dbee3a0325aea14"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -172,8 +172,8 @@
     <section id="teeth-section-8" class="p-0 rtl">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-8.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-8.jpg?h=dbbe0ee66be3e09331452ca1e354d555"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
@@ -193,8 +193,8 @@
     <section id="teeth-section-9" class="p-0">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-9.jpg"></div>
-                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg&quot;) center / cover repeat;background-attachment: fixed;"></div>
+                <div class="col-12 col-md-4 text-center p-0"><img class="img-fluid m-0" src="assets/img/teeth-9.jpg?h=514b9a9e12fc142cc72986b3dcd7797a"></div>
+                <div class="col-12 col-md-8 p-5 mt-5" style="background: url(&quot;assets/img/pattern-bg.jpg?h=377924204c63367d6d389c1f00347d86&quot;) center / cover repeat;background-attachment: fixed;"></div>
             </div>
         </div>
         <section class="py-0" style="margin-top: -250px;z-index: 2;">
