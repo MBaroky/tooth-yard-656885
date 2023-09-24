@@ -2,7 +2,7 @@
     <footer class="text-white bg-dark" style="background: linear-gradient(90deg, var(--green-dark), var(--green-main));">
         <div class="container py-4 py-lg-5">
             <div class="row row-cols-1 row-cols-md-3 justify-content-center">
-                <div class="col text-center d-flex flex-column item" data-aos="fade-right" data-aos-once="true"><img class="img-fluid" src="assets/img/white.png?h=e1b7c1b7ee8682ffadc33e3369a53571">
+                <div class="col text-center d-flex flex-column align-items-center item" data-aos="fade-right" data-aos-once="true"><img class="img-fluid" src="assets/img/white.png?h=e1b7c1b7ee8682ffadc33e3369a53571" style="width: 300px;">
                     <div class="footer-svg mb-2"><svg preserveAspectRatio="xMidYMid meet" data-bbox="51 51 98 98" viewBox="51 51 98 98" height="60" width="60" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true"><defs><style>#comp-lmdcck8k svg [data-color="1"] {fill: #BADA55;}
 #comp-lmdcck8k svg [data-color="2"] {fill: #79B448;}</style></defs>
     <g>
@@ -12,7 +12,7 @@
 </svg></div>
                     <p class="text-center rtl">مواعيد العمل<br><br>السبت الى الخميس<br>من 11 ص – 9 م<br></p>
                 </div>
-                <div class="col text-center form-wrapper">
+                <div class="col text-center form-wrapper rtl">
 <?php echo @$_REQUEST['endFormMessage'];?><?php if(!isset($_REQUEST['endFormMessage']) && $_REQUEST['endFormMessage'] == 0){?>
                     <form class="text-end float-none mx-auto rtl footer-form" id="contact-form" method="post"><input class="form-control" type="hidden" name="lang" value="arabic">
                         <div class="messages"></div>
@@ -71,14 +71,14 @@ _gaq.push(['_trackEvent', 'submit', 'clicked', '', 0]);
         <section class="p-0" style="background: #ffffff;">
             <div class="container text-dark">
                 <div class="row row-cols-1 row-cols-md-2 py-2">
-                    <div class="col">
+                    <div class="col d-md-flex align-items-md-end">
                         <div class="d-flex justify-content-between align-items-center pt-3">
-                            <p class="text-center text-sm-start mb-0" style="width: 100%;">© 2023 by&nbsp;Tooth Yard Dental Clinic<br></p>
+                            <p class="text-center text-sm-start mb-0" style="width: 100%;font-size: 14px;font-weight: 200;">© 2023 by&nbsp;Tooth Yard Dental Clinic<br></p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-md-flex justify-content-md-end align-items-md-end">
                         <div class="d-flex justify-content-center align-items-center justify-content-md-end pt-3">
-                            <p class="mb-0">Built and Managed by<br></p><img src="assets/img/YELLOW-BLACK.png?h=066d881c2b4afc115d84bebaa1bdd628">
+                            <p class="mb-0" style="font-size: 14px;">Built and Managed by<br></p><img src="assets/img/YELLOW-BLACK.png?h=066d881c2b4afc115d84bebaa1bdd628">
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ _gaq.push(['_trackEvent', 'submit', 'clicked', '', 0]);
     <script src="assets/bootstrap/js/bootstrap.min.js?h=981245863c383366a329259d02b8172c"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="assets/js/script.min.js?h=e584bb0a2f04fa6ccf06ade3f574b242"></script>
+    <script src="assets/js/script.min.js?h=a0b6708c180e557d767ff9693e4232ba"></script>
     <script src="assets/js/aos.min.min.js?h=d3718e34eeb0355be8e3179a2e2bccb7"></script>
 </body>
 

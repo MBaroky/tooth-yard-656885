@@ -1,3 +1,4 @@
+<?php include 'form.php'; ?>
 <?php include 'header.php'; ?>
 
     <section id="services-1" class="p-5" style="margin-top: 80px;">

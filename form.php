@@ -37,7 +37,7 @@ if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirst
 
 	//  }
 	//  /*else if ($formname == "free_business_profile") {
-	// 	 $to ="r.saleh@yellow.com.eg";
+	// 	 $to ="";
 	//  }*/
 	//  else {
 	// 	 $to ="";
@@ -201,11 +201,11 @@ if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirst
 		$mail->SMTPDebug = 0;
 		$mail->Host = 'smtpout.secureserver.net';                       // Specify main and backup server
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		$mail->Username = 'noreply@solutions.yellowpages.com.eg';          // SMTP username
-		$mail->Password = 'eLg1Z@1F';               	// SMTP password
+		$mail->Username = '';          // SMTP username
+		$mail->Password = '';               	// SMTP password
 		//$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 		$mail->Port = 80;                                    //Set the SMTP port number - 587 for authenticated TLS
-		$mail->setFrom('noreply@solutions.yellowpages.com.eg', 'Yellow Media');     //Set who the message is to be sent from
+		$mail->setFrom('', '');     //Set who the message is to be sent from
 		//$mail->addReplyTo('mnassser@gmail.com', 'First Last');  //Set an alternative reply-to address
 		$mail->addAddress($to, '');  // Add a recipient
 		////$mail->addCC('cc@example.com');
