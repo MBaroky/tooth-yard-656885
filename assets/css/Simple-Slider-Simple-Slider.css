@@ -1,5 +1,5 @@
 .swiper {
-  height: 600px;
+  height: 700px;
 }
 
 .swiper-button {
@@ -8,7 +8,7 @@
 }
 
 .swiper .swiper-slide {
-  height: 600px;
+  height: 700px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,14 +22,14 @@
 }
 
 @media (max-width:767px) {
-  .swiper .swiper-button-next, .simple-slider .swiper-button-prev {
-    display: none;
+  .swiper .swiper-slide {
+    height: 403px;
   }
 }
 
 @media (max-width:767px) {
-  .swiper .swiper-slide {
-    height: 360px;
+  .swiper {
+    height: 400px;
   }
 }
 

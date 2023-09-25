@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700,900&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=54d09f91e88eea0a052c98a09c02ba2b">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=1c2615174755b144ba9701740aa891c9">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=480c050ec93cb8dbdcc5f2e56b5165c7">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 </head>

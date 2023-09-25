@@ -3,12 +3,16 @@
   --green-dark: #185B21;
 }
 
+section {
+  overflow-x: clip;
+}
+
 .rtl {
   direction: rtl;
 }
 
 .simple-slider {
-  max-height: 750px;
+  max-height: 850px;
 }
 
 #header-nav {
@@ -160,7 +164,8 @@ a {
   left: 0;
   top: 0;
   height: 100%;
-  background-color: rgba(255,255,255,0.5);
+  background-color: white;
+  opacity: 0.77;
 }
 
 .overlay-light {
@@ -178,5 +183,33 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.pattern-row {
+  margin-top: -450px;
+  z-index: -1;
+  position: relative;
+}
+
+.pattern-row > div:last-child {
+  min-height: 500px;
+}
+
+.teeth-section ~ .teeth-section {
+  margin-top: 120px;
+}
+
+.teeth-section .row {
+  position: relative;
+}
+
+.teeth-section .row:first-child {
+  z-index: 2;
+}
+
+@media (min-width: 1200px) {
+  #about-1 {
+    margin-top: -500px;
+  }
 }
 

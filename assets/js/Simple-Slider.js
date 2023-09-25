@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
       direction:'vertical',
       autoplay:true,
         loop:true,
-        height:600,
+        height:700,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'

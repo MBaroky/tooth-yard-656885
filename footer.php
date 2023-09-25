@@ -73,7 +73,7 @@ _gaq.push(['_trackEvent', 'submit', 'clicked', '', 0]);
                 <div class="row row-cols-1 row-cols-md-2 py-2">
                     <div class="col d-md-flex align-items-md-end">
                         <div class="d-flex justify-content-between align-items-center pt-3">
-                            <p class="text-center text-sm-start mb-0" style="width: 100%;font-size: 14px;font-weight: 200;">© 2023 by&nbsp;Tooth Yard Dental Clinic<br></p>
+                            <p class="text-center mb-0" style="width: 100%;font-size: 14px;font-weight: 200;">© 2023 by&nbsp;Tooth Yard Dental Clinic<br></p>
                         </div>
                     </div>
                     <div class="col d-md-flex justify-content-md-end align-items-md-end">

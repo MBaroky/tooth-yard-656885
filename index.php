@@ -14,7 +14,7 @@
                         <div class="swiper">
                             <div class="swiper-wrapper" style="height: auto;">
                                 <div class="swiper-slide" style="background: url(&quot;assets/img/home-slider-1.png?h=9731367317187ec24719572665e48173&quot;) left / cover no-repeat;"></div>
-                                <div class="swiper-slide" style="background: url(&quot;assets/img/home-slider-2.png?h=1af17852015b4aad3532325336ddfbc1&quot;) left / cover no-repeat;"></div>
+                                <div class="swiper-slide" style="background: url(&quot;assets/img/home-slider-2.png?h=1af17852015b4aad3532325336ddfbc1&quot;) center / cover no-repeat;"></div>
                             </div>
                             <div class="text-white swiper-button-prev swiper-button"></div>
                             <div class="text-white swiper-button-next swiper-button"></div>
@@ -24,12 +24,12 @@
             </div>
         </div>
     </header>
-    <section id="about" class="bg-primary" style="background: url(&quot;assets/img/home-bg-1.jpg?h=af1a23db34806e5f5d4ab36c595bbfa9&quot;) left / cover no-repeat;padding-bottom: 0;height: 600px;">
+    <section class="d-none d-xl-flex bg-primary" id="about" style="background: url(&quot;assets/img/home-bg-1.jpg?h=af1a23db34806e5f5d4ab36c595bbfa9&quot;) left / cover no-repeat;padding-bottom: 0;height: 600px;">
         <div class="container p-5">
             <div class="row"></div>
         </div>
     </section>
-    <section class="d-flex justify-content-end py-0 px-0" id="about-1" style="padding-bottom: 0;margin-top: -500px;">
+    <section class="d-flex justify-content-end py-0 px-0" id="about-1">
         <div class="container-fluid">
             <div class="row g-0 row-cols-1">
                 <div class="col text-center d-flex float-end justify-content-end" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">

@@ -20,33 +20,11 @@ if (!isset($_REQUEST['lang']) || $_REQUEST['lang'] == 'english'){
 if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirstName'] != ''){
 	//Email to send to address
 
-	 $to = "m.baroky@yellow.com.eg";
-	 	 $bcc = "a.atef@yellow.com.eg";
+	 $to = "";
+	 	 $bcc = "";
 
 
-	// //Form Name
-	// $formname = @$_REQUEST['formRequesterFormName'];
-	// $utm_source = $_REQUEST["utm_source"];
-	// $utm_language = $_REQUEST["utm_language"];
-	// $utm_adname = $_REQUEST["utm_adname"];
-
-
-	//   if ($formname == "Free Directory Listing") {
-	// 	 $to ="";
-
-
-	//  }
-	//  /*else if ($formname == "free_business_profile") {
-	// 	 $to ="";
-	//  }*/
-	//  else {
-	// 	 $to ="";
-
-
-	//  }
-
-	//  $bcc ="";
-	 $subject="Yellow Media -- from: ";
+	 $subject="From Website ";
 
 	/**/
 
@@ -63,71 +41,10 @@ if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirst
 
 
 
-	//companyname
-	// $companyname = htmlspecialchars(@$_REQUEST['formRequesterCompanyName'], ENT_QUOTES);
-
-
-	//businessactivity
-	// $businessactivity = htmlspecialchars(@$_REQUEST['formRequesterBusinessActivity'], ENT_QUOTES);
-
-
-
-	//city
-	// $city = @$_REQUEST['formRequesterCity'];
-
 
 	//message
 	$message = htmlspecialchars(@$_REQUEST['formRequesterMessage'], ENT_QUOTES);
 
-
-
-	//Checkbox
-	// $checkBox = @$_REQUEST['formRequesterCheckBox'];
-	//echo "test==>".$checkBox;
-
-	// if ($checkBox == "1")
-	// {
-	// 	$checkBox = "yes";
-	// 	}
-	// else
-	// {
-	// 	$checkBox = "no";
-	// 	}
-
-
-	//tittle1
-	// $tittle1 = htmlspecialchars(@$_REQUEST['formRequesterJobTittle1'], ENT_QUOTES);
-
-
-	//tittle2
-	// $tittle2 = htmlspecialchars(@$_REQUEST['formRequesterJobTittle2'], ENT_QUOTES);
-
-
-	//website
-	// $website	 = htmlspecialchars(@$_REQUEST['formRequesterWebsite'], ENT_QUOTES);
-
-
-	//facebook
-	// $facebook = htmlspecialchars(@$_REQUEST['formRequesterFacebook'], ENT_QUOTES);
-
-
-	//timefrom
-	// $timefrom = @$_REQUEST['formRequesterTimefrom'];
-
-
-	//formRequesterTimeto
-	// $timeto = @$_REQUEST['formRequesterTimeto'];
-
-	//address
-	// $address = htmlspecialchars(@$_REQUEST['formRequesterAddress'], ENT_QUOTES);
-
-
-
-//	$emailContent = '';
-//	$emailContent .= "from:".$from."\n";
-//	$emailContent .= "mobile:".$mobile."\n";
-//	$emailContent .= "message:".$message."\n";
-//	$emailTemplateFile = fopen("form.html", "r");
 
 
 
@@ -140,41 +57,7 @@ if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirst
 
 	$emailContent = preg_replace('/-##EMAIL##-/',$from,$emailContent);
 
-	// $emailContent = preg_replace('/-##ADDRESS##-/',$address,$emailContent);
-
-	// $emailContent = preg_replace('/-##COMPANYNAME##-/',$companyname,$emailContent);
-
-	// 	$emailContent = preg_replace('/-##BUSINESSACTIVITY##-/',$businessactivity,$emailContent);
-
-
-	// $emailContent = preg_replace('/-##TITLE##-/',$tittle1,$emailContent);
-
-	// $emailContent = preg_replace('/-##OTHER##-/',$tittle2,$emailContent);
-
-	// $emailContent = preg_replace('/-##WEBSITE##-/',$website,$emailContent);
-
-	// $emailContent = preg_replace('/-##FACEBOOK##-/',$facebook,$emailContent);
-
-	// $emailContent = preg_replace('/-##CITY##-/',$city,$emailContent);
-
-	// $emailContent = preg_replace('/-##checkBox##-/',$checkBox,$emailContent);
-
 	$emailContent = preg_replace('/-##MESSAGE##-/',$message,$emailContent);
-
-	// $emailContent = preg_replace('/-##UTM_SOURCE##-/',$utm_source,$emailContent);
-
-	// $emailContent = preg_replace('/-##UTM_LANGUAGE##-/',$utm_language,$emailContent);
-
-	// $emailContent = preg_replace('/-##UTM_ADNAME##-/',$utm_adname,$emailContent);
-
-
-	// $emailContent = preg_replace('/-##TIMEFROM##-/',$timefrom,$emailContent);
-
-	// $emailContent = preg_replace('/-##TIMETO##-/',$timeto,$emailContent);
-
-	// $emailContent = preg_replace('/-##ADDRESS##-/',$address,$emailContent);
-
-
 
 
 
@@ -206,22 +89,12 @@ if ( isset($_REQUEST['formRequesterFirstName']) && $_REQUEST['formRequesterFirst
 		//$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 		$mail->Port = 80;                                    //Set the SMTP port number - 587 for authenticated TLS
 		$mail->setFrom('', '');     //Set who the message is to be sent from
-		//$mail->addReplyTo('mnassser@gmail.com', 'First Last');  //Set an alternative reply-to address
 		$mail->addAddress($to, '');  // Add a recipient
-		////$mail->addCC('cc@example.com');
 		$mail->addBCC($bcc);
 		$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
-		//$mail->addAttachment('/usr/labnol/file.doc');         // Add attachments
-		//$mail->addAttachment('/images/image.jpg', 'new.jpg'); // Optional name
-		$mail->isHTML(true);                                  // Set email format to HTML
 
 		$mail->Subject = $subject;
 		$mail->Body    = $emailContent;
-		//$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-		//Read an HTML message body from an external file, convert referenced images to embedded,
-		//convert HTML into a basic plain-text alternative body
-		//$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
 
 		if(!$mail->send()) {
 		   $endFormMessage = $allMessages['SUBMIT_FAILED'];
