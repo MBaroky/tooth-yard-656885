@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-center section-heading rtl heading-font fw-bold color-dark" style="font-size: 100px;">اتصل بنا<br></h2>
+                    <h2 class="text-center section-heading rtl heading-font fw-bold color-dark" style="font-size: 100px;">Call us <br></h2>
                 </div>
             </div>
         </div>
