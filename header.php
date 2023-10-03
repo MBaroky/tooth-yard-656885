@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almarai&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700,900&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=54d09f91e88eea0a052c98a09c02ba2b">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=480c050ec93cb8dbdcc5f2e56b5165c7">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=2de26b466de5727ff98e3fbb1f21b820">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 </head>
@@ -34,7 +34,7 @@ function isMobile() {
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-md-4 col-lg-3"><a class="navbar-brand" href="#page-top"><img src="assets/img/logo2.png?h=4452706a2ae2b2db72d525a5c1181aec"></a></div>
+                    <div class="col-8 col-md-4 col-lg-3"><a class="navbar-brand" href="#page-top"><img class="img-fluid" src="assets/img/logo2.png?h=4452706a2ae2b2db72d525a5c1181aec"></a></div>
                     <div class="col text-end d-md-flex justify-content-sm-end align-items-md-center"><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right mt-2" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="height: 60px;"><i class="fa fa-align-justify"></i></button>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav mx-auto" id="header-nav" style="direction: rtl;max-width: 550px;">
@@ -43,6 +43,9 @@ function isMobile() {
                                 <li class="nav-item <?= (strpos($activePage , 'teeth') !== false) ? 'active':''; ?>"><a class="nav-link px-0" href="teeth.php">صحة الاسنان</a></li>
                                 <li class="nav-item <?= (strpos($activePage , 'contact') !== false) ? 'active':''; ?>"><a class="nav-link" href="contact.php">اتصل بنا</a></li>
                             </ul>
+                        </div>
+                        <div class="dropdown float-start"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#" style="color: var(--green-main);">Ar</a>
+                            <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="en/<?php echo basename($_SERVER['PHP_SELF']);?>">En</a></div>
                         </div><a class="btn btn-outline-primary btn-lg d-none float-end d-lg-inline-block" role="button" id="header-phone" href="tel:01066771440">01066771440</a>
                     </div>
                 </div>
