@@ -7,12 +7,6 @@ HTMLElement.prototype.removeChildren = function (cssSelector) {
     this.removeChild(indices[i]);
   }
 };
-// function removeChildren(cssSelector, parentNode) {
-//   var elements = parentNode.querySelectorAll(cssSelector);
-//   let fragment = document.createDocumentFragment();
-//   fragment.textContent = " ";
-//   fragment.firstChild.replaceWith(...elements);
-// }
 
 function loadHTML(names) {
   names.forEach((name, i) => {
@@ -29,6 +23,6 @@ function loadHTML(names) {
   });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  loadHTML(["header", "footer"]);
-});
+// document.addEventListener("DOMContentLoaded", function () {
+loadHTML(["header", "footer"]);
+// });
