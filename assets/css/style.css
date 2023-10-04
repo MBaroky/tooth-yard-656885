@@ -1,0 +1,223 @@
+:root {
+  --green-main: #79B448;
+  --green-dark: #185B21;
+}
+
+section {
+  overflow-x: clip;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.simple-slider {
+  max-height: 850px;
+}
+
+#header-nav {
+  width: 100%;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #header-nav li {
+    width: calc(25% - 10px);
+    text-align: center;
+    position: relative;
+  }
+}
+
+#header-nav li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: solid 1px var(--green-dark);
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  #header-nav li.active:before {
+    border-top: solid 4px var(--green-dark);
+  }
+}
+
+@media (min-width: 768px) {
+  #header-nav li:not(:last-child) {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #header-nav li:hover:before {
+    border-top: solid 4px var(--green-main);
+  }
+}
+
+#mainNav #navbarResponsive #header-nav a.nav-link {
+  font-size: 22px !important;
+  font-family: Jenine;
+  color: var(--green-dark);
+  letter-spacing: 0.7px;
+}
+
+#mainNav #navbarResponsive #header-nav a.nav-link:hover, #mainNav #navbarResponsive #header-nav li.active a.nav-link {
+  color: var(--green-main) !important;
+}
+
+#mainNav {
+  background: rgba(255,255,255,0.8);
+}
+
+#header-phone {
+  color: var(--green-dark);
+  background: rgba(255,255,255,0);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 900;
+}
+
+.color-dark {
+  color: var(--green-dark);
+}
+
+.heading-font {
+  font-family: Jenine;
+}
+
+.color-main {
+  color: var(--green-main);
+}
+
+.bg-main {
+  background-color: var(--green-main);
+}
+
+@media (max-width: 767px) {
+  #cover-doctor-name {
+    letter-spacing: 1px !important;
+  }
+}
+
+.photo-gallery .col.item a {
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.photo-gallery .col.item a:not([href="#"]) img:hover {
+  transform: scale(1.2);
+}
+
+.photo-gallery .col.item a img {
+  transition: all 400ms ease-in-out;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-svg svg {
+  max-width: 100%;
+}
+
+.footer-svg svg * {
+  fill: #BADA55;
+}
+
+.footer-svg {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.bg-dark-green {
+  background-color: var(--green-dark);
+}
+
+.footer-form input, .footer-form textarea {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 0;
+  border: rgba(255,255,255,0.5);
+  color: #000000;
+}
+
+.footer-form input {
+  height: 30px;
+}
+
+.footer-form label {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.overlay-light::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: white;
+  opacity: 0.77;
+}
+
+.overlay-light {
+  position: relative;
+  isolation: isolate;
+}
+
+.photo-gallery #services-gallery .col.item a {
+  border: 2px solid white;
+  box-shadow: 0 0 5px gray, inset 0 0 2px gray;
+}
+
+.photo-gallery #services-gallery .col.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pattern-row {
+  margin-top: -450px;
+  z-index: -1;
+  position: relative;
+}
+
+.pattern-row > div:last-child {
+  min-height: 500px;
+}
+
+.teeth-section ~ .teeth-section {
+  margin-top: 120px;
+}
+
+.teeth-section .row {
+  position: relative;
+}
+
+.teeth-section .row:first-child {
+  z-index: 2;
+}
+
+@media (min-width: 1200px) {
+  #about-1 {
+    margin-top: -500px;
+  }
+}
+
+#header-nav li a {
+  font-size: 16px !important;
+}
+

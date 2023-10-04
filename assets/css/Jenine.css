@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Jenine';
+	src: url(../../assets/fonts/ArbFONTS-Jenine-Regular.woff?h=184087d438209ebf9968a83a957b5824) format('woff'),
+	url(../../assets/fonts/ArbFONTS-Jenine-Regular.woff2?h=184087d438209ebf9968a83a957b5824) format('woff2'),
+	url(../../assets/fonts/ArbFONTS-Jenine-Regular.eot?h=184087d438209ebf9968a83a957b5824) format('embedded-opentype'),
+	url(../../assets/fonts/ArbFONTS-Jenine-Regular.eot?h=184087d438209ebf9968a83a957b5824) format('embedded-opentype'),
+	url(../../assets/fonts/ArbFONTS-Jenine-Regular.otf?h=184087d438209ebf9968a83a957b5824) format('otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
