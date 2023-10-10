@@ -14,7 +14,7 @@
                 </div>
                 <div class="col text-center form-wrapper rtl">
 <?php echo @$_REQUEST['endFormMessage'];?><?php if(!isset($_REQUEST['endFormMessage']) && $_REQUEST['endFormMessage'] == 0){?>
-                    <form class="text-end float-none mx-auto footer-form" id="contact-form" method="post"><input class="form-control" type="hidden" name="lang" value="arabic">
+                    <form class="text-end float-none mx-auto footer-form" id="contact-form" method="post"><input class="form-control" type="hidden" name="lang" value="english">
                         <div class="messages"></div>
                         <div class="controls">
                             <div class="row row-cols-1 ltr">
